@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+/* Immagine di sfondo */
+.title {
+    background-image: url('./img/pattern.png');
+    height: 100px;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-color: rgb(146, 146, 245);
+    background-size: 400px 200px;
+
+}
+
+/* Immagine del titolo */
+.title-image {
+    height: 60px;
+    position: absolute
+;   
+}
+
+#link {
+    color: blue;
+}

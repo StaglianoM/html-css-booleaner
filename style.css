@@ -17,6 +17,22 @@ body {
 .title-image {
     height: 60px;
     position: absolute;
+    margin-top: 30px;
+}
+
+#blue {
+    background-color: white;
+    color: blue;
+}
+
+/* Container*/
+.container {
+    margin: 4px;
+}
+
+/* Subtitle */
+#subtitle {
+    margin-top: 5px;
 }
 
 /* The booleaner */

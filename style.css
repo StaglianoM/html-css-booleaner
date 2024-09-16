@@ -22,6 +22,11 @@ body {
     margin-top: 30px;
 }
 
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
 /* Scritta Booleaner */
 
 #booleaner {
@@ -40,6 +45,7 @@ body {
     margin-top: 2px;
 }
 
+
 /* Table Color */
 
 .table-head {
@@ -54,6 +60,13 @@ body {
 
 .table-color {
     background-color: rgb(177, 229, 242);
+}
+
+/* bordi uniti delle celle */
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
 }
 
 /* "Scritto da" & "Info"  */

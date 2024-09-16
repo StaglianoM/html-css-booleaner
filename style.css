@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    width: 1050px;
+    width: 1115px;
 }
 
 /* Immagine di sfondo */
@@ -9,10 +9,11 @@ body {
     height: 100px;
     width: 100%;
     background-repeat: repeat-x;
-    background-color: rgb(146, 146, 245);
+    background-color: rgb(78, 160, 255);
     background-size: 400px 200px;
 
 }
+
 
 /* Immagine del titolo */
 .title-image {
@@ -21,39 +22,41 @@ body {
     margin-top: 30px;
 }
 
-#blue {
+/* Scritta Booleaner */
+
+#booleaner {
     background-color: white;
     color: blue;
 }
 
-/* Container*/
+/* Container per il margine da sotto al titolo alla fine del codice*/
 .container {
-    margin: 4px;
+    margin: 5px;
 }
 
-/* Subtitle */
+
+/* Subtitle (margine subtitle photo) */
 #subtitle {
-    margin-top: 5px;
-}
-
-/* The booleaner */
-#link {
-    color: blue;
+    margin-top: 2px;
 }
 
 /* Table Color */
 
 .table-head {
-    background-color: rgb(30, 30, 236);
+    background-color:rgb(32, 169, 229);
     color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.wide-column {
+    width: 150px; /* larghezza colonna */
 }
 
 .table-color {
-    background-color: rgb(110, 110, 236);
-    color: rgb(255, 255, 255);
+    background-color: rgb(177, 229, 242);
 }
 
-/* Info */
+/* "Scritto da" & "Info"  */
 
 .text-info {
     color: grey;
@@ -76,13 +79,15 @@ body {
     background-image: url('./img/graph.jpg');
 }
 
+/*testo lorem tabella*/
+
 .text-lorem {
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(253, 254, 255);
     margin: 0;
 }
 
 #list {
-    padding-inline-start: 20px;
+    padding-left: 20px;
 }

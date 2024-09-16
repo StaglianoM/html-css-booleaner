@@ -35,3 +35,33 @@ body {
     background-color: rgb(110, 110, 236);
     color: rgb(255, 255, 255);
 }
+
+/* Info */
+
+.info {
+    color: grey;
+    font-weight: bold;
+}
+
+/* Immagini finali */
+
+.image {
+    height: 200px;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.image-1 {
+    background-image: url('./img/monitor.jpg');
+}
+
+.image-2 {
+    background-image: url('./img/graph.jpg');
+}
+
+.text-lorem {
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(253, 254, 255);
+    margin: 0;
+}

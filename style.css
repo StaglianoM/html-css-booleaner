@@ -16,10 +16,22 @@ body {
 /* Immagine del titolo */
 .title-image {
     height: 60px;
-    position: absolute
-;   
+    position: absolute;
 }
 
+/* The booleaner */
 #link {
     color: blue;
+}
+
+/* Tabel Color */
+
+.tabel-head {
+    background-color: rgb(30, 30, 236);
+    color: rgb(255, 255, 255);
+}
+
+.table-color {
+    background-color: rgb(110, 110, 236);
+    color: rgb(255, 255, 255);
 }

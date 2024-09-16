@@ -82,3 +82,7 @@ body {
     color: rgb(253, 254, 255);
     margin: 0;
 }
+
+#list {
+    padding-inline-start: 20px;
+}
